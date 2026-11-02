@@ -119,7 +119,7 @@ export function Catalog() {
             </a>
           </div>
         ) : (
-          <motion.div key={`${cat}-${dq}`} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: EASE }} className="mt-6 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
+          <motion.div key={`${cat}-${dq}`} initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: EASE }} className="mt-6 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4 min-[1700px]:grid-cols-5">
             {shown.map((p) => (
               <ProductCard key={p.slug} p={p} />
             ))}

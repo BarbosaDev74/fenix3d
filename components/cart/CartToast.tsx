@@ -20,7 +20,7 @@ export function CartToast() {
             className="pointer-events-auto flex items-center gap-3 rounded-2xl border border-flame/40 bg-coal/95 p-2 pr-3 shadow-glow backdrop-blur"
           >
             <span className="relative h-10 w-10 overflow-hidden rounded-lg">
-              <Image src={p.image} alt="" fill sizes="40px" className="object-cover" />
+              <Image src={p.thumb} alt="" fill sizes="40px" className="object-cover" />
             </span>
             <span className="text-sm">
               <strong className="font-semibold">{p.name}</strong> <span className="text-smoke">{content.cart.toastAdded}</span>

@@ -109,7 +109,7 @@ export function ProductRing({ items, label }: { items: Product[]; label: string 
             tabIndex={-1}
           >
             <Image
-              src={p.image}
+              src={p.thumb}
               alt={p.name}
               fill
               draggable={false}

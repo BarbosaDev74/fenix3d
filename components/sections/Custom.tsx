@@ -47,7 +47,7 @@ export function Custom() {
                   data-reveal-item
                   className={`relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10 ${i % 2 ? "translate-y-6" : ""}`}
                 >
-                  <Image src={p.image} alt={p.name} fill sizes="(min-width:1024px) 25vw, 50vw" className="object-cover" />
+                  <Image src={p.thumb} alt={p.name} fill sizes="(min-width:1024px) 25vw, 50vw" className="object-cover" />
                 </div>
               ))}
             </Reveal>

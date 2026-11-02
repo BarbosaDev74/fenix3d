@@ -224,7 +224,10 @@
     ],
     "relatedTitle": "Combina com esta peça",
     "shareLabel": "Copiar link da peça",
-    "sharedLabel": "Link copiado!"
+    "sharedLabel": "Link copiado!",
+    "stickyAdd": "Orçar esta peça",
+    "stickyAdded": "Ver orçamento",
+    "stickyWhats": "Pedir no WhatsApp"
   },
   "steps": {
     "eyebrow": "Como funciona",
@@ -345,9 +348,10 @@
       "category": "herois",
       "description": "Estátua imponente do Cavaleiro das Trevas sobre uma gárgula, com capa rendada em padrão gótico. Peça de vitrine.",
       "image": "/produtos/batman-gotico-com-gargula.webp",
-      "width": 400,
-      "height": 299,
-      "featured": true
+      "width": 1400,
+      "height": 1047,
+      "featured": true,
+      "thumb": "/produtos/thumb/batman-gotico-com-gargula.webp"
     },
     {
       "slug": "husky-articulado",
@@ -355,9 +359,10 @@
       "category": "articulados",
       "description": "Cachorrinho husky com corpo articulado em segmentos que balançam e se mexem. Divertido de brincar e de expor.",
       "image": "/produtos/husky-articulado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/husky-articulado.webp"
     },
     {
       "slug": "espectro-sombrio-com-espada",
@@ -365,9 +370,10 @@
       "category": "geek",
       "description": "Cavaleiro encapuzado de manto rasgado empunhando a espada. Visual sombrio que domina qualquer estante.",
       "image": "/produtos/espectro-sombrio-com-espada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/espectro-sombrio-com-espada.webp"
     },
     {
       "slug": "ronin-de-chapeu-de-palha",
@@ -375,9 +381,10 @@
       "category": "esculturas",
       "description": "Andarilho samurai de quimono e chapéu cônico, em pose serena. Minimalista e cheio de presença.",
       "image": "/produtos/ronin-de-chapeu-de-palha.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/ronin-de-chapeu-de-palha.webp"
     },
     {
       "slug": "pantera-negra-chibi",
@@ -385,9 +392,10 @@
       "category": "herois",
       "description": "O rei de Wakanda em versão chibi, agachado e pronto para o ataque. Pequeno, detalhado e muito fofo.",
       "image": "/produtos/pantera-negra-chibi.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/pantera-negra-chibi.webp"
     },
     {
       "slug": "homem-aranha-vazado",
@@ -395,9 +403,10 @@
       "category": "herois",
       "description": "Homem-Aranha em estrutura vazada tipo teia orgânica (voronoi). Uma escultura que só existe graças à impressão 3D.",
       "image": "/produtos/homem-aranha-vazado.webp",
-      "width": 400,
-      "height": 299,
-      "featured": true
+      "width": 1400,
+      "height": 1047,
+      "featured": true,
+      "thumb": "/produtos/thumb/homem-aranha-vazado.webp"
     },
     {
       "slug": "necro-dragon",
@@ -405,9 +414,10 @@
       "category": "fantasia",
       "description": "Dragão necromante de asas abertas sobre um trono de ossos e caveiras. Riqueza de detalhes em cada escama.",
       "image": "/produtos/necro-dragon.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/necro-dragon.webp"
     },
     {
       "slug": "esqueleto-articulado",
@@ -415,9 +425,10 @@
       "category": "articulados",
       "description": "Esqueleto com todas as juntas móveis, impresso já montado. Pose do jeito que quiser: sentado, pendurado, dançando.",
       "image": "/produtos/esqueleto-articulado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/esqueleto-articulado.webp"
     },
     {
       "slug": "pote-texturizado-com-tampa-de-rosca",
@@ -425,9 +436,10 @@
       "category": "decoracao",
       "description": "Pote cilíndrico com textura em losangos e tampa rosqueável. Guarda moedas, fones, ervas ou o que precisar.",
       "image": "/produtos/pote-texturizado-com-tampa-de-rosca.webp",
-      "width": 400,
-      "height": 396,
-      "featured": false
+      "width": 1400,
+      "height": 1386,
+      "featured": false,
+      "thumb": "/produtos/thumb/pote-texturizado-com-tampa-de-rosca.webp"
     },
     {
       "slug": "par-de-vasos-espirais",
@@ -435,9 +447,10 @@
       "category": "decoracao",
       "description": "Dois vasos com torção em espiral que brincam com a luz. Ficam lindos em contraste: um escuro e um claro.",
       "image": "/produtos/par-de-vasos-espirais.webp",
-      "width": 400,
-      "height": 326,
-      "featured": false
+      "width": 1400,
+      "height": 1141,
+      "featured": false,
+      "thumb": "/produtos/thumb/par-de-vasos-espirais.webp"
     },
     {
       "slug": "bola-de-natal-chale-na-neve",
@@ -445,9 +458,10 @@
       "category": "decoracao",
       "description": "Enfeite natalino rendado com um chalé e um pinheiro em relevo dentro. Delicado como porcelana.",
       "image": "/produtos/bola-de-natal-chale-na-neve.webp",
-      "width": 400,
-      "height": 400,
-      "featured": false
+      "width": 1400,
+      "height": 1400,
+      "featured": false,
+      "thumb": "/produtos/thumb/bola-de-natal-chale-na-neve.webp"
     },
     {
       "slug": "suporte-de-headset-busto-heisenberg",
@@ -455,10 +469,11 @@
       "category": "gamer",
       "description": "Busto do químico mais famoso da TV que segura seu headset. Organiza a mesa e ainda vira assunto.",
       "image": "/produtos/suporte-de-headset-busto-heisenberg.webp",
-      "width": 400,
-      "height": 441,
+      "width": 1270,
+      "height": 1400,
       "featured": false,
-      "focus": "50% 40%"
+      "focus": "50% 40%",
+      "thumb": "/produtos/thumb/suporte-de-headset-busto-heisenberg.webp"
     },
     {
       "slug": "busto-homem-de-ferro",
@@ -466,10 +481,11 @@
       "category": "herois",
       "description": "Busto do Homem de Ferro com capacete e armadura em placas. Ótimo para mesa de escritório ou setup.",
       "image": "/produtos/busto-homem-de-ferro.webp",
-      "width": 400,
-      "height": 433,
+      "width": 1293,
+      "height": 1400,
       "featured": false,
-      "focus": "50% 35%"
+      "focus": "50% 35%",
+      "thumb": "/produtos/thumb/busto-homem-de-ferro.webp"
     },
     {
       "slug": "peixes-yin-yang",
@@ -477,9 +493,10 @@
       "category": "esculturas",
       "description": "Dois peixes entrelaçados em equilíbrio, um claro e um escuro, sobre base retangular. Arte decorativa elegante.",
       "image": "/produtos/peixes-yin-yang.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/peixes-yin-yang.webp"
     },
     {
       "slug": "gato-minimalista",
@@ -487,9 +504,10 @@
       "category": "animais",
       "description": "Gato sentado em linhas fluidas e orelhas pontudas. Decoração moderna que combina com qualquer ambiente.",
       "image": "/produtos/gato-minimalista.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/gato-minimalista.webp"
     },
     {
       "slug": "bola-de-golfe-sentadinha",
@@ -497,9 +515,10 @@
       "category": "articulados",
       "description": "Personagem bola de golfe com braços e pernas articulados, perfeito para sentar na beirada da prateleira.",
       "image": "/produtos/bola-de-golfe-sentadinha.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/bola-de-golfe-sentadinha.webp"
     },
     {
       "slug": "pote-canelado-com-bandeja",
@@ -507,9 +526,10 @@
       "category": "decoracao",
       "description": "Pote frisado com tampa e bandeja redonda. Ideal para algodão, joias ou como peça de banheiro e lavabo.",
       "image": "/produtos/pote-canelado-com-bandeja.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/pote-canelado-com-bandeja.webp"
     },
     {
       "slug": "coelho-low-poly",
@@ -517,9 +537,10 @@
       "category": "animais",
       "description": "Coelho em facetas geométricas, estilo origami. Limpo, moderno e muito bonito em branco.",
       "image": "/produtos/coelho-low-poly.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/coelho-low-poly.webp"
     },
     {
       "slug": "sapo-rei",
@@ -527,9 +548,10 @@
       "category": "animais",
       "description": "Sapinho gordinho de coroa na cabeça, esperando o beijo. Peça bem-humorada para presentear.",
       "image": "/produtos/sapo-rei.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/sapo-rei.webp"
     },
     {
       "slug": "elefante-low-poly-branco",
@@ -537,9 +559,10 @@
       "category": "animais",
       "description": "Elefante geométrico em facetas, símbolo de sorte e sabedoria. Destaque em estantes e mesas de centro.",
       "image": "/produtos/elefante-low-poly-branco.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/elefante-low-poly-branco.webp"
     },
     {
       "slug": "cranio-de-touro",
@@ -547,9 +570,10 @@
       "category": "esculturas",
       "description": "Crânio de touro com chifres longos e textura de osso. Decoração rústica com pegada de faroeste.",
       "image": "/produtos/cranio-de-touro.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/cranio-de-touro.webp"
     },
     {
       "slug": "caveira-com-coracao-anatomico",
@@ -557,9 +581,10 @@
       "category": "esculturas",
       "description": "Caveira e coração anatômico fundidos numa só escultura. Forte, simbólica e cheia de detalhe.",
       "image": "/produtos/caveira-com-coracao-anatomico.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/caveira-com-coracao-anatomico.webp"
     },
     {
       "slug": "maos-segurando-a-caveira",
@@ -567,9 +592,10 @@
       "category": "esculturas",
       "description": "Duas mãos escuras envolvendo uma caveira clara. Contraste dramático para decoração autoral.",
       "image": "/produtos/maos-segurando-a-caveira.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/maos-segurando-a-caveira.webp"
     },
     {
       "slug": "batman-chibi",
@@ -577,9 +603,10 @@
       "category": "herois",
       "description": "O Morcego em versão chibi, de braços cruzados. Pequeno no tamanho, gigante na atitude.",
       "image": "/produtos/batman-chibi.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-chibi.webp"
     },
     {
       "slug": "dragao-sobre-o-trono-de-ferro",
@@ -587,9 +614,10 @@
       "category": "fantasia",
       "description": "Dragão de asas abertas pousado no trono de espadas. Para quem joga o jogo dos tronos.",
       "image": "/produtos/dragao-sobre-o-trono-de-ferro.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/dragao-sobre-o-trono-de-ferro.webp"
     },
     {
       "slug": "darth-vader-chibi",
@@ -597,9 +625,10 @@
       "category": "geek",
       "description": "O Lorde Sith em versão chibi com capa. Para fãs da saga que gostam do lado sombrio... e fofo.",
       "image": "/produtos/darth-vader-chibi.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/darth-vader-chibi.webp"
     },
     {
       "slug": "elefante-low-poly-preto",
@@ -607,9 +636,10 @@
       "category": "animais",
       "description": "Elefante geométrico em facetas, versão escura e marcante. Combina com decoração moderna e industrial.",
       "image": "/produtos/elefante-low-poly-preto.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/elefante-low-poly-preto.webp"
     },
     {
       "slug": "batman-chibi-de-capa",
@@ -617,9 +647,10 @@
       "category": "herois",
       "description": "Batman chibi com capa esvoaçante e orelhas em pé. Ótimo para mesa de trabalho.",
       "image": "/produtos/batman-chibi-de-capa.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-chibi-de-capa.webp"
     },
     {
       "slug": "miniatura-de-carro-esportivo",
@@ -627,9 +658,10 @@
       "category": "decoracao",
       "description": "Miniatura de sedã esportivo com grade dupla e linhas agressivas. Para quem é apaixonado por carro.",
       "image": "/produtos/miniatura-de-carro-esportivo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/miniatura-de-carro-esportivo.webp"
     },
     {
       "slug": "coruja-detalhada",
@@ -637,9 +669,10 @@
       "category": "animais",
       "description": "Coruja de penas esculpidas uma a uma e olhar atento. Peça de biblioteca, escritório ou sala de estudos.",
       "image": "/produtos/coruja-detalhada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/coruja-detalhada.webp"
     },
     {
       "slug": "silhueta-do-elfo-livre",
@@ -647,9 +680,10 @@
       "category": "geek",
       "description": "Arte em silhueta do elfo doméstico mais querido do mundo bruxo. Para pendurar ou apoiar na estante.",
       "image": "/produtos/silhueta-do-elfo-livre.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/silhueta-do-elfo-livre.webp"
     },
     {
       "slug": "ovelha-fofa",
@@ -657,9 +691,10 @@
       "category": "animais",
       "description": "Ovelhinha de lã texturizada e carinha preta. Fofura garantida em qualquer cantinho.",
       "image": "/produtos/ovelha-fofa.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/ovelha-fofa.webp"
     },
     {
       "slug": "mao-de-esqueleto",
@@ -667,9 +702,10 @@
       "category": "decoracao",
       "description": "Mão esquelética saindo da base, perfeita para o Halloween ou como porta-anéis o ano todo.",
       "image": "/produtos/mao-de-esqueleto.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/mao-de-esqueleto.webp"
     },
     {
       "slug": "bicho-preguica-no-galho",
@@ -677,9 +713,10 @@
       "category": "animais",
       "description": "Preguiça dormindo pendurada no galho, sobre base de tronco. Relaxa só de olhar.",
       "image": "/produtos/bicho-preguica-no-galho.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/bicho-preguica-no-galho.webp"
     },
     {
       "slug": "chaveiros-ghostface",
@@ -687,9 +724,10 @@
       "category": "articulados",
       "description": "Chaveirinhos da máscara mais famosa do terror. Ótimos para presentes e lembrancinhas em quantidade.",
       "image": "/produtos/chaveiros-ghostface.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/chaveiros-ghostface.webp"
     },
     {
       "slug": "wither-do-minecraft",
@@ -697,9 +735,10 @@
       "category": "gamer",
       "description": "O chefão de três cabeças do Minecraft em blocos. Para a mesa do gamer de todas as idades.",
       "image": "/produtos/wither-do-minecraft.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/wither-do-minecraft.webp"
     },
     {
       "slug": "morceguinho-de-trico",
@@ -707,9 +746,10 @@
       "category": "animais",
       "description": "Morcego fofinho com textura que imita tricô, impressa direto na peça. Gótico e fofo ao mesmo tempo.",
       "image": "/produtos/morceguinho-de-trico.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/morceguinho-de-trico.webp"
     },
     {
       "slug": "ghostface-chibi",
@@ -717,9 +757,10 @@
       "category": "geek",
       "description": "O assassino do Pânico em versão chibi, com faca na mão. Terror fofo para colecionador.",
       "image": "/produtos/ghostface-chibi.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/ghostface-chibi.webp"
     },
     {
       "slug": "bola-de-natal-com-vila-nevada",
@@ -727,9 +768,10 @@
       "category": "decoracao",
       "description": "Enfeite de Natal com vila e pinheiros dentro de uma janela redonda. Fica lindo com pisca-pisca atrás.",
       "image": "/produtos/bola-de-natal-com-vila-nevada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/bola-de-natal-com-vila-nevada.webp"
     },
     {
       "slug": "suporte-de-controle-trono-de-ferro",
@@ -737,9 +779,10 @@
       "category": "gamer",
       "description": "O trono de espadas que segura seu controle de videogame. A peça que todo setup merecia.",
       "image": "/produtos/suporte-de-controle-trono-de-ferro.webp",
-      "width": 400,
-      "height": 299,
-      "featured": true
+      "width": 1400,
+      "height": 1047,
+      "featured": true,
+      "thumb": "/produtos/thumb/suporte-de-controle-trono-de-ferro.webp"
     },
     {
       "slug": "trio-de-arvores-de-natal",
@@ -747,9 +790,10 @@
       "category": "decoracao",
       "description": "Três pinheiros texturizados com estrela no topo, em tamanhos diferentes. Natal moderno e minimalista.",
       "image": "/produtos/trio-de-arvores-de-natal.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/trio-de-arvores-de-natal.webp"
     },
     {
       "slug": "colecao-de-bustos-assombrados",
@@ -757,9 +801,10 @@
       "category": "esculturas",
       "description": "Série de bustos fantasmagóricos com expressões únicas. Monte a coleção inteira ou escolha os seus.",
       "image": "/produtos/colecao-de-bustos-assombrados.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/colecao-de-bustos-assombrados.webp"
     },
     {
       "slug": "colecao-turma-de-hawkins-chibi",
@@ -767,10 +812,11 @@
       "category": "geek",
       "description": "A turma inteira da série em miniaturas chibi. Para maratonar com eles na estante.",
       "image": "/produtos/colecao-turma-de-hawkins-chibi.webp",
-      "width": 502,
-      "height": 900,
+      "width": 782,
+      "height": 1400,
       "featured": false,
-      "focus": "50% 72%"
+      "focus": "50% 72%",
+      "thumb": "/produtos/thumb/colecao-turma-de-hawkins-chibi.webp"
     },
     {
       "slug": "xadrez-medieval",
@@ -778,9 +824,10 @@
       "category": "decoracao",
       "description": "Jogo de xadrez completo com peças de castelo e cavaleiros. Joga-se e expõe-se.",
       "image": "/produtos/xadrez-medieval.webp",
-      "width": 400,
-      "height": 300,
-      "featured": true
+      "width": 1400,
+      "height": 1050,
+      "featured": true,
+      "thumb": "/produtos/thumb/xadrez-medieval.webp"
     },
     {
       "slug": "escultura-rostos-do-beijo",
@@ -788,9 +835,10 @@
       "category": "esculturas",
       "description": "Dois rostos que se encontram num beijo, em linhas suaves. Presente perfeito para casais.",
       "image": "/produtos/escultura-rostos-do-beijo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": true
+      "width": 1400,
+      "height": 1050,
+      "featured": true,
+      "thumb": "/produtos/thumb/escultura-rostos-do-beijo.webp"
     },
     {
       "slug": "cranio-realista",
@@ -798,9 +846,10 @@
       "category": "esculturas",
       "description": "Crânio humano em escala realista, com dentes e suturas detalhadas. Para estudo ou decoração.",
       "image": "/produtos/cranio-realista.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/cranio-realista.webp"
     },
     {
       "slug": "anjo-pensativo",
@@ -808,9 +857,10 @@
       "category": "esculturas",
       "description": "Anjo de asas grandes sentado em contemplação. Escultura clássica, linda em branco.",
       "image": "/produtos/anjo-pensativo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/anjo-pensativo.webp"
     },
     {
       "slug": "aparador-de-livros-ninja",
@@ -818,9 +868,10 @@
       "category": "decoracao",
       "description": "Ninja segurando os livros sozinho. O aparador mais divertido da sua estante.",
       "image": "/produtos/aparador-de-livros-ninja.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/aparador-de-livros-ninja.webp"
     },
     {
       "slug": "chaveiro-ovelha-flexi",
@@ -828,9 +879,10 @@
       "category": "articulados",
       "description": "Chaveiro da ovelhinha com braços e pernas que se mexem. Pequeno, resistente e carismático.",
       "image": "/produtos/chaveiro-ovelha-flexi.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/chaveiro-ovelha-flexi.webp"
     },
     {
       "slug": "dragao-de-fogo-de-bolso",
@@ -838,9 +890,10 @@
       "category": "geek",
       "description": "O dragão laranja mais famoso dos monstrinhos de bolso, com chama na cauda. Para fã de anime e games.",
       "image": "/produtos/dragao-de-fogo-de-bolso.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/dragao-de-fogo-de-bolso.webp"
     },
     {
       "slug": "dragao-dorminhoco-de-prateleira",
@@ -848,9 +901,10 @@
       "category": "fantasia",
       "description": "Dragão sentado na beirada, de asas abertas. Feito para ficar em cima do monitor, impressora ou estante.",
       "image": "/produtos/dragao-dorminhoco-de-prateleira.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/dragao-dorminhoco-de-prateleira.webp"
     },
     {
       "slug": "homem-de-ferro-em-acao",
@@ -858,9 +912,10 @@
       "category": "herois",
       "description": "Homem de Ferro de corpo inteiro com a mão erguida, pronto para disparar. Pose de cinema.",
       "image": "/produtos/homem-de-ferro-em-acao.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/homem-de-ferro-em-acao.webp"
     },
     {
       "slug": "cachorro-spitz",
@@ -868,9 +923,10 @@
       "category": "animais",
       "description": "Cachorro de pelagem fofa e rabo enrolado, em pose atenta. Homenagem perfeita para quem ama pets.",
       "image": "/produtos/cachorro-spitz.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/cachorro-spitz.webp"
     },
     {
       "slug": "porta-canetas-escola-de-magia",
@@ -878,9 +934,10 @@
       "category": "geek",
       "description": "Organizador de mesa com coruja, caldeirão, vassoura e livros de feitiço. Escritório encantado.",
       "image": "/produtos/porta-canetas-escola-de-magia.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/porta-canetas-escola-de-magia.webp"
     },
     {
       "slug": "bruxinho-com-varinha",
@@ -888,9 +945,10 @@
       "category": "geek",
       "description": "O bruxo mais famoso de óculos redondos com a varinha erguida, sobre base de livros e objetos mágicos.",
       "image": "/produtos/bruxinho-com-varinha.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/bruxinho-com-varinha.webp"
     },
     {
       "slug": "venom-vazado",
@@ -898,9 +956,10 @@
       "category": "herois",
       "description": "Venom em estrutura vazada orgânica (voronoi), em pose de ataque. Escultura moderna e impressionante.",
       "image": "/produtos/venom-vazado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/venom-vazado.webp"
     },
     {
       "slug": "dragao-negro-na-rocha",
@@ -908,9 +967,10 @@
       "category": "fantasia",
       "description": "Dragão de asas abertas sobre rocha pontiaguda, com escamas e chifres detalhados. Peça de destaque.",
       "image": "/produtos/dragao-negro-na-rocha.webp",
-      "width": 400,
-      "height": 300,
-      "featured": true
+      "width": 1400,
+      "height": 1050,
+      "featured": true,
+      "thumb": "/produtos/thumb/dragao-negro-na-rocha.webp"
     },
     {
       "slug": "navio-pirata-compacto",
@@ -918,9 +978,10 @@
       "category": "decoracao",
       "description": "Galeão pirata com velas e casco detalhados em tamanho compacto. Clássico de estante.",
       "image": "/produtos/navio-pirata-compacto.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/navio-pirata-compacto.webp"
     },
     {
       "slug": "peixes-esqueleto-articulados",
@@ -928,9 +989,10 @@
       "category": "articulados",
       "description": "Peixes-esqueleto que se mexem como de verdade. Brinquedo antiestresse e decoração ao mesmo tempo.",
       "image": "/produtos/peixes-esqueleto-articulados.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/peixes-esqueleto-articulados.webp"
     },
     {
       "slug": "tubarao-megalodon",
@@ -938,9 +1000,10 @@
       "category": "animais",
       "description": "Tubarão de boca aberta mostrando todos os dentes. Para quem curte o predador mais temido dos mares.",
       "image": "/produtos/tubarao-megalodon.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/tubarao-megalodon.webp"
     },
     {
       "slug": "leao-rugindo",
@@ -948,9 +1011,10 @@
       "category": "animais",
       "description": "Leão de juba esculpida rugindo sobre uma rocha. Força e imponência para sua sala.",
       "image": "/produtos/leao-rugindo.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/leao-rugindo.webp"
     },
     {
       "slug": "chaveiro-ghostface-com-argola",
@@ -958,9 +1022,10 @@
       "category": "articulados",
       "description": "Chaveiro da máscara do Pânico com argola de metal. Para carregar o terror no bolso.",
       "image": "/produtos/chaveiro-ghostface-com-argola.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/chaveiro-ghostface-com-argola.webp"
     },
     {
       "slug": "busto-simbionte-aranha",
@@ -968,9 +1033,10 @@
       "category": "herois",
       "description": "Busto do Aranha com traje simbionte negro saindo em ondas. Contraste preto e branco marcante.",
       "image": "/produtos/busto-simbionte-aranha.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/busto-simbionte-aranha.webp"
     },
     {
       "slug": "batman-na-base-do-simbolo",
@@ -978,9 +1044,10 @@
       "category": "herois",
       "description": "Batman de corpo inteiro sobre a base do morcego. Postura de guardião de Gotham.",
       "image": "/produtos/batman-na-base-do-simbolo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-na-base-do-simbolo.webp"
     },
     {
       "slug": "diorama-trio-bruxo",
@@ -988,9 +1055,10 @@
       "category": "geek",
       "description": "O trio de amigos da escola de magia sobre uma base temática. Peça de coleção para fãs.",
       "image": "/produtos/diorama-trio-bruxo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/diorama-trio-bruxo.webp"
     },
     {
       "slug": "suporte-de-controle-rei-sombrio",
@@ -998,9 +1066,10 @@
       "category": "gamer",
       "description": "Suporte de controle com o Rei Sombrio de coroa pontuda. Setup com cara de vilão.",
       "image": "/produtos/suporte-de-controle-rei-sombrio.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/suporte-de-controle-rei-sombrio.webp"
     },
     {
       "slug": "tartaruga-ninja-sentada",
@@ -1008,9 +1077,10 @@
       "category": "herois",
       "description": "Tartaruga ninja com bandana, sentadinha na beirada. Feita para ficar na ponta da prateleira.",
       "image": "/produtos/tartaruga-ninja-sentada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/tartaruga-ninja-sentada.webp"
     },
     {
       "slug": "detetive-noir-sentado",
@@ -1018,9 +1088,10 @@
       "category": "esculturas",
       "description": "Figura de sobretudo e chapéu sentada na borda do móvel. Clima de filme noir em qualquer canto.",
       "image": "/produtos/detetive-noir-sentado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/detetive-noir-sentado.webp"
     },
     {
       "slug": "homem-aranha-em-pose-de-acao",
@@ -1028,9 +1099,10 @@
       "category": "herois",
       "description": "Homem-Aranha agachado em plena ação, com músculos e teia em detalhe. Vai bem em qualquer mesa.",
       "image": "/produtos/homem-aranha-em-pose-de-acao.webp",
-      "width": 755,
-      "height": 566,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/homem-aranha-em-pose-de-acao.webp"
     },
     {
       "slug": "mini-sociedade-do-anel",
@@ -1038,9 +1110,10 @@
       "category": "geek",
       "description": "Miniaturas dos heróis da Terra-média, mago incluído. Para fãs de RPG e fantasia.",
       "image": "/produtos/mini-sociedade-do-anel.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/mini-sociedade-do-anel.webp"
     },
     {
       "slug": "kit-chapeu-seletor",
@@ -1048,9 +1121,10 @@
       "category": "geek",
       "description": "Porta-joias de chapéu seletor e porta-pincéis temático. Penteadeira com toque de magia.",
       "image": "/produtos/kit-chapeu-seletor.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/kit-chapeu-seletor.webp"
     },
     {
       "slug": "luminaria-dragao-cuspindo-fogo",
@@ -1058,9 +1132,10 @@
       "category": "fantasia",
       "description": "Dragão que solta uma labareda de luz de verdade. Com LED, vira luminária e peça central do quarto.",
       "image": "/produtos/luminaria-dragao-cuspindo-fogo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": true
+      "width": 1400,
+      "height": 1050,
+      "featured": true,
+      "thumb": "/produtos/thumb/luminaria-dragao-cuspindo-fogo.webp"
     },
     {
       "slug": "mago-sentado",
@@ -1068,9 +1143,10 @@
       "category": "geek",
       "description": "O mago de barba longa sentado com o cajado. Sabedoria pura em cima da sua estante.",
       "image": "/produtos/mago-sentado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/mago-sentado.webp"
     },
     {
       "slug": "porta-canetas-jaleco",
@@ -1078,9 +1154,10 @@
       "category": "decoracao",
       "description": "Porta-canetas em forma de jaleco com estetoscópio. Presente perfeito para médicos, enfermeiros e estudantes.",
       "image": "/produtos/porta-canetas-jaleco.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/porta-canetas-jaleco.webp"
     },
     {
       "slug": "crucifixo",
@@ -1088,9 +1165,10 @@
       "category": "esculturas",
       "description": "Crucifixo com o Cristo esculpido sobre base. Peça de fé para casa ou presente.",
       "image": "/produtos/crucifixo.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/crucifixo.webp"
     },
     {
       "slug": "panda-flexi-slinky",
@@ -1098,9 +1176,10 @@
       "category": "articulados",
       "description": "Panda em corpo de mola que estica e encolhe. Brinquedo antiestresse que ninguém larga.",
       "image": "/produtos/panda-flexi-slinky.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/panda-flexi-slinky.webp"
     },
     {
       "slug": "mascote-baleia-musculosa",
@@ -1108,9 +1187,10 @@
       "category": "esculturas",
       "description": "Mascote baleia bombado de uniforme de futebol. Para o torcedor que leva o time a sério.",
       "image": "/produtos/mascote-baleia-musculosa.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/mascote-baleia-musculosa.webp"
     },
     {
       "slug": "par-de-corujas-caneladas",
@@ -1118,9 +1198,10 @@
       "category": "decoracao",
       "description": "Duas corujas de formas arredondadas e textura canelada. Decoração escandinava e aconchegante.",
       "image": "/produtos/par-de-corujas-caneladas.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/par-de-corujas-caneladas.webp"
     },
     {
       "slug": "dragao-verde-esculpido",
@@ -1128,9 +1209,10 @@
       "category": "fantasia",
       "description": "Dragão de chifres e asas recolhidas, em pose de vigia. Muito detalhe para colecionador.",
       "image": "/produtos/dragao-verde-esculpido.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/dragao-verde-esculpido.webp"
     },
     {
       "slug": "bruxo-sentado-na-beirada",
@@ -1138,9 +1220,10 @@
       "category": "geek",
       "description": "O jovem bruxo sentado, pensativo, com a varinha na mão. Feito para a beirada da prateleira.",
       "image": "/produtos/bruxo-sentado-na-beirada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/bruxo-sentado-na-beirada.webp"
     },
     {
       "slug": "lunara-rainha-da-noite",
@@ -1148,9 +1231,10 @@
       "category": "fantasia",
       "description": "Rainha sentada na lua crescente, de vestido longo. Peça de fantasia delicada e cheia de charme.",
       "image": "/produtos/lunara-rainha-da-noite.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/lunara-rainha-da-noite.webp"
     },
     {
       "slug": "porta-incenso-arqueiro",
@@ -1158,9 +1242,10 @@
       "category": "decoracao",
       "description": "Arqueiro mirando o incenso como flecha, sobre bandeja ornamentada. Aroma e arte juntos.",
       "image": "/produtos/porta-incenso-arqueiro.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/porta-incenso-arqueiro.webp"
     },
     {
       "slug": "batman-classico-de-capa",
@@ -1168,9 +1253,10 @@
       "category": "herois",
       "description": "Batman de pé com capa longa e postura firme. Estilo clássico de quadrinho.",
       "image": "/produtos/batman-classico-de-capa.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-classico-de-capa.webp"
     },
     {
       "slug": "batman-sentado-na-beirada",
@@ -1178,9 +1264,10 @@
       "category": "herois",
       "description": "O Morcego sentado no alto, observando a cidade. Perfeito para o topo da estante ou do monitor.",
       "image": "/produtos/batman-sentado-na-beirada.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-sentado-na-beirada.webp"
     },
     {
       "slug": "navio-pirata-detalhado",
@@ -1188,9 +1275,10 @@
       "category": "decoracao",
       "description": "Galeão pirata grande com velas rasgadas, canhões e casco cheio de detalhe. Peça de respeito.",
       "image": "/produtos/navio-pirata-detalhado.webp",
-      "width": 400,
-      "height": 299,
-      "featured": true
+      "width": 1400,
+      "height": 1047,
+      "featured": true,
+      "thumb": "/produtos/thumb/navio-pirata-detalhado.webp"
     },
     {
       "slug": "homem-aranha-pensativo-sentado",
@@ -1198,9 +1286,10 @@
       "category": "herois",
       "description": "Homem-Aranha sentado na beirada, cabeça baixa, depois de um dia longo. Para a prateleira.",
       "image": "/produtos/homem-aranha-pensativo-sentado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/homem-aranha-pensativo-sentado.webp"
     },
     {
       "slug": "batman-armadura-completa",
@@ -1208,9 +1297,10 @@
       "category": "herois",
       "description": "Batman de corpo inteiro em armadura tática e capa. Muita textura e presença.",
       "image": "/produtos/batman-armadura-completa.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-armadura-completa.webp"
     },
     {
       "slug": "superman-classico",
@@ -1218,9 +1308,10 @@
       "category": "herois",
       "description": "O Homem de Aço com mãos na cintura e capa ao vento, sobre base. Ícone em branco puro.",
       "image": "/produtos/superman-classico.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/superman-classico.webp"
     },
     {
       "slug": "batman-porta-caneta",
@@ -1228,9 +1319,10 @@
       "category": "herois",
       "description": "Batman ajoelhado segurando sua caneta favorita como arma. Mesa de trabalho com estilo.",
       "image": "/produtos/batman-porta-caneta.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-porta-caneta.webp"
     },
     {
       "slug": "torre-gotica-porta-objetos",
@@ -1238,9 +1330,10 @@
       "category": "fantasia",
       "description": "Castelo gótico de torres pontiagudas que guarda canetas e pincéis. Escrivaninha de fantasia.",
       "image": "/produtos/torre-gotica-porta-objetos.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/torre-gotica-porta-objetos.webp"
     },
     {
       "slug": "pantera-negra-agachado",
@@ -1248,9 +1341,10 @@
       "category": "herois",
       "description": "Pantera Negra de corpo inteiro agachado, traje com textura detalhada. Pronto para o salto.",
       "image": "/produtos/pantera-negra-agachado.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/pantera-negra-agachado.webp"
     },
     {
       "slug": "darth-vader-porta-caneta",
@@ -1258,9 +1352,10 @@
       "category": "geek",
       "description": "Vader ajoelhado segurando a caneta como sabre. O lado sombrio da escrivaninha.",
       "image": "/produtos/darth-vader-porta-caneta.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/darth-vader-porta-caneta.webp"
     },
     {
       "slug": "dementador",
@@ -1268,9 +1363,10 @@
       "category": "geek",
       "description": "Criatura encapuzada de manto esvoaçante sobre base. Sombria, fluida e linda em preto.",
       "image": "/produtos/dementador.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/dementador.webp"
     },
     {
       "slug": "cachorrinho-low-poly",
@@ -1278,9 +1374,10 @@
       "category": "animais",
       "description": "Cachorrinho de orelhas caídas em facetas geométricas. Homenagem moderna para quem ama cachorro.",
       "image": "/produtos/cachorrinho-low-poly.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/cachorrinho-low-poly.webp"
     },
     {
       "slug": "castelo-da-escola-de-magia",
@@ -1288,9 +1385,10 @@
       "category": "geek",
       "description": "Castelo cheio de torres que também organiza canetas e objetos. Para o fã que quer a escola na mesa.",
       "image": "/produtos/castelo-da-escola-de-magia.webp",
-      "width": 400,
-      "height": 300,
-      "featured": true
+      "width": 1400,
+      "height": 1050,
+      "featured": true,
+      "thumb": "/produtos/thumb/castelo-da-escola-de-magia.webp"
     },
     {
       "slug": "fantasminhas-flexi",
@@ -1298,9 +1396,10 @@
       "category": "articulados",
       "description": "Fantasminhas fofos e flexíveis. Ótimos para o Halloween, lembrancinhas ou para apertar.",
       "image": "/produtos/fantasminhas-flexi.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/fantasminhas-flexi.webp"
     },
     {
       "slug": "vaso-escultural-petalas",
@@ -1308,9 +1407,10 @@
       "category": "decoracao",
       "description": "Vaso em pétalas ondulantes que parecem uma chama. Escultura para a mesa de centro.",
       "image": "/produtos/vaso-escultural-petalas.webp",
-      "width": 400,
-      "height": 300,
-      "featured": false
+      "width": 1400,
+      "height": 1050,
+      "featured": false,
+      "thumb": "/produtos/thumb/vaso-escultural-petalas.webp"
     },
     {
       "slug": "batman-arkham-na-estante",
@@ -1318,9 +1418,10 @@
       "category": "herois",
       "description": "Batman de armadura pesada sobre base de destroços. Peça de colecionador.",
       "image": "/produtos/batman-arkham-na-estante.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-arkham-na-estante.webp"
     },
     {
       "slug": "batman-de-pe-na-base",
@@ -1328,9 +1429,10 @@
       "category": "herois",
       "description": "Batman em pé com capa caída e mão no queixo, sobre base redonda. Clássico e marcante.",
       "image": "/produtos/batman-de-pe-na-base.webp",
-      "width": 400,
-      "height": 299,
-      "featured": false
+      "width": 1400,
+      "height": 1047,
+      "featured": false,
+      "thumb": "/produtos/thumb/batman-de-pe-na-base.webp"
     }
   ],
   "ui": {

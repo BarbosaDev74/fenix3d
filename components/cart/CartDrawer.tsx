@@ -97,7 +97,7 @@ export function CartDrawer() {
                         >
                           <div className="flex gap-3">
                             <Link href={`/produto/${p.slug}`} onClick={() => setOpen(false)} className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl bg-ash">
-                              <Image src={p.image} alt={p.name} fill sizes="80px" className="object-cover" style={p.focus ? { objectPosition: p.focus } : undefined} />
+                              <Image src={p.thumb} alt={p.name} fill sizes="80px" className="object-cover" style={p.focus ? { objectPosition: p.focus } : undefined} />
                             </Link>
                             <div className="min-w-0 flex-1">
                               <div className="flex items-start justify-between gap-2">

@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ArrowLeft, Check, Link2, Minus, Plus, ShoppingBag, Info } from "lucide-react";
 import { content, getCategory, getProduct } from "@/lib/content";
 import { useCart, cartDefaults } from "@/components/cart/CartProvider";
@@ -24,6 +24,19 @@ export function ProductDetail({ slug }: { slug: string }) {
   const [added, setAdded] = useState(false);
   const [copied, setCopied] = useState(false);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [showBar, setShowBar] = useState(false);
+  const actionsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = actionsRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(([e]) => setShowBar(!!e && !e.isIntersecting && e.boundingClientRect.top < window.innerHeight), {
+      threshold: 0,
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
   if (!p) return null;
   const cat = getCategory(p.category);
 
@@ -54,17 +67,17 @@ export function ProductDetail({ slug }: { slug: string }) {
   });
 
   return (
-    <section className="relative overflow-hidden pb-16 pt-24 md:pt-28">
+    <section className="relative overflow-hidden pb-28 pt-20 sm:pt-24 md:pt-28 lg:pb-16">
       <div aria-hidden className="absolute inset-0 -z-10 bg-[radial-gradient(50%_50%_at_25%_35%,rgba(255,91,31,.18),transparent_70%)]" />
       <div className="container">
         <Link href="/#catalogo" className="inline-flex items-center gap-2 text-sm text-smoke hover:text-bone">
           <ArrowLeft className="h-4 w-4" /> {pc.backLabel}
         </Link>
 
-        <div className="mt-6 grid gap-8 lg:grid-cols-2 lg:gap-14">
+        <div className="mt-5 grid gap-8 md:mt-6 lg:grid-cols-[1.05fr_1fr] lg:gap-12 xl:gap-16">
           <motion.div {...fade(0)} className="lg:sticky lg:top-24 lg:self-start">
             <div
-              className="relative mx-auto max-w-[560px] [perspective:1000px]"
+              className="relative mx-auto w-full max-w-[640px] [perspective:1000px]"
               onMouseMove={(e) => {
                 if (reduce) return;
                 const r = e.currentTarget.getBoundingClientRect();
@@ -77,7 +90,8 @@ export function ProductDetail({ slug }: { slug: string }) {
                 className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-white/15 bg-ash shadow-[0_40px_80px_-30px_rgba(0,0,0,.9)] transition-transform duration-300 ease-out"
                 style={{ transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)` }}
               >
-                <Image src={p.image} alt={p.name} fill priority sizes="(min-width:1024px) 560px, 100vw" className="object-cover" style={p.focus ? { objectPosition: p.focus } : undefined} />
+                <Image src={p.thumb} alt="" aria-hidden fill sizes="200px" className="scale-110 object-cover opacity-50 blur-2xl" />
+                <Image src={p.image} alt={p.name} fill priority sizes="(min-width:1024px) 640px, 100vw" className="object-contain" />
               </div>
               <p className="mt-3 inline-flex items-center gap-1.5 text-xs text-smoke">
                 <Info className="h-3.5 w-3.5 text-flame" aria-hidden /> {pc.illustrative}
@@ -91,7 +105,7 @@ export function ProductDetail({ slug }: { slug: string }) {
                 {cat.label}
               </motion.p>
             )}
-            <motion.h1 {...fade(0.1)} className="mt-3 font-display text-fluid-h2 font-extrabold">
+            <motion.h1 {...fade(0.1)} className="mt-3 text-balance font-display text-[clamp(1.9rem,1.2rem+2.6vw,3.4rem)] font-extrabold leading-[1.02] tracking-[-0.03em]">
               {p.name}
             </motion.h1>
             <motion.p {...fade(0.18)} className="mt-4 text-fluid-lead text-smoke">
@@ -173,7 +187,7 @@ export function ProductDetail({ slug }: { slug: string }) {
                 </label>
               </div>
 
-              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <div ref={actionsRef} className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <MagneticButton onClick={onAdd} className="w-full sm:w-auto">
                   {added ? <Check className="h-4 w-4" aria-hidden /> : <ShoppingBag className="h-4 w-4" aria-hidden />}
                   {added ? pc.addedCta : pc.addCta}
@@ -209,6 +223,40 @@ export function ProductDetail({ slug }: { slug: string }) {
           </div>
         </div>
       </div>
+      <AnimatePresence>
+        {showBar && (
+          <motion.div
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            exit={{ y: 100 }}
+            transition={{ duration: 0.35, ease: EASE }}
+            className="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-[#0A0705F2] px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur-xl lg:hidden"
+          >
+            <div className="mx-auto flex max-w-xl items-center gap-3">
+              <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-lg bg-ash">
+                <Image src={p.thumb} alt="" fill sizes="44px" className="object-cover" />
+              </div>
+              <button
+                type="button"
+                onClick={onAdd}
+                className="flex flex-1 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-ember via-flame to-gold px-4 py-3 text-sm font-bold text-ink shadow-glow"
+              >
+                {added ? <Check className="h-4 w-4" aria-hidden /> : <ShoppingBag className="h-4 w-4" aria-hidden />}
+                {added ? pc.stickyAdded : pc.stickyAdd}
+              </button>
+              <a
+                href={sendLink([single])}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={pc.stickyWhats}
+                className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[#25D366] text-white"
+              >
+                <WhatsAppIcon className="h-5 w-5" />
+              </a>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

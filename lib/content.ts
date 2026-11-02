@@ -8,6 +8,7 @@ export type Product = {
   category: CategoryId;
   description: string;
   image: string;
+  thumb: string;
   width: number;
   height: number;
   featured: boolean;

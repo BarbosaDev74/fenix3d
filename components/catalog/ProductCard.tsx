@@ -16,7 +16,7 @@ export function ProductCard({ p, big, className, priority }: { p: Product; big?:
     >
       <Link href={`/produto/${p.slug}`} className={cn("relative block overflow-hidden bg-ash", big ? "aspect-[4/3] lg:aspect-auto lg:flex-1" : "aspect-[4/3]")}>
         <Image
-          src={p.image}
+          src={big ? p.image : p.thumb}
           alt={p.name}
           fill
           priority={priority}
@@ -26,7 +26,12 @@ export function ProductCard({ p, big, className, priority }: { p: Product; big?:
         />
         <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-coal via-transparent to-transparent opacity-80" />
         {cat && (
-          <span className="absolute left-3 top-3 rounded-full border border-white/15 bg-black/55 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-bone backdrop-blur">
+          <span
+            className={cn(
+              "absolute left-3 top-3 max-w-[calc(100%-1.5rem)] truncate rounded-full border border-white/15 bg-black/55 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-bone backdrop-blur",
+              !big && "max-sm:hidden",
+            )}
+          >
             {cat.label}
           </span>
         )}

@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { ShoppingBag } from "lucide-react";
 import { useCart } from "@/components/cart/CartProvider";
@@ -10,8 +11,9 @@ import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 export function FloatingWhatsApp() {
   const { count, setOpen, open } = useCart();
   const c = content.cart;
+  const onProduct = usePathname()?.startsWith("/produto/") ?? false;
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-4 z-30 flex items-end justify-end gap-3 px-4 sm:bottom-6 sm:px-6">
+    <div className={`pointer-events-none fixed inset-x-0 bottom-4 z-30 ${onProduct ? "hidden lg:flex" : "flex"} items-end justify-end gap-3 px-4 sm:bottom-6 sm:px-6`}>
       <AnimatePresence>
         {count > 0 && !open && (
           <motion.button
